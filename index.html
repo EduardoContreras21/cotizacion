@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./archivo.js"></script>
+    <title>Cotizacion de Servicios</title>
+</head>
+<body>
+    
+    <!-- FORMULARIO -->
+    <form id="cotizador" name="" method="post">
+    
+    <!-- ELEGIR TAMAÑO -->
+    <label>Elige el tamaño de tus uñas acrilicas nuevas</label>
+    <select id="tamaño">
+        <option value="tamaño1">1</option>
+        <option value="tamaño2">2</option>
+        <option value="tamaño3">3</option>
+        <option value="tamañoxl">XL</option>
+    </select>
+<br>
+<br>
+    <!-- ELEGIR CANTIDAD DE UÑAS CON EFECTO -->
+    <label>Alguna de tus uñas llevará efecto?</label>
+    <select id="efecto">
+        <option value="efecto0">0</option>
+        <option value="efecto1">1</option>
+        <option value="efecto2">2</option>
+        <option value="efecto3">3</option>
+        <option value="efecto4">4</option>
+        <option value="efecto5">5</option>
+        <option value="efecto6">6</option>
+        <option value="efecto7">7</option>
+        <option value="efecto8">8</option>
+        <option value="efecto9">9</option>
+        <option value="efecto10">10</option>
+    </select>
+    <br>
+    <br>
+    <!-- DIBUJO EN CUANTAS UÑAS -->
+    <label>Alguna de tus uñas llevará diseño a mano? (dibujo)</label>
+    <select id="dibujo">
+        <option value="dibujo0">0</option>
+        <option value="dibujo1">1</option>
+        <option value="dibujo2">2</option>
+        <option value="dibujo3">3</option>
+        <option value="dibujo4">4</option>
+        <option value="dibujo5">5</option>
+        <option value="dibujo6">6</option>
+        <option value="dibujo7">7</option>
+        <option value="dibujo8">8</option>
+        <option value="dibujo9">9</option>
+        <option value="dibujo10">10</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="calcular();">Calcular</button>
+
+    <p>El costo de tus uñas es:<span id="resultado"></span></p>
+    </form>
+</body>
+</html>
