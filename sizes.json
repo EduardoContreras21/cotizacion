@@ -1,0 +1,13 @@
+[{
+    "displayName": "Chicas",
+    "id": "chicas",
+    "price": 350
+  }, {
+    "displayName": "Grandes",
+    "id": "grandes",
+    "price": 380
+  }, {
+    "displayName": "Extra Grandes",
+    "id": "extra",
+    "price": 400
+  }]
